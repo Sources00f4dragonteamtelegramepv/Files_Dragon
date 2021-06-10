@@ -3,7 +3,7 @@ local text = msg.content_.text_
 if ChatType == 'sp' or ChatType == 'gp'  then
 if not DevSOFI:get(Dragon..'SOFI:Lock:Reply'..msg.chat_id_) then
 if text == "انجب" or text == "نجب" or text == "انجبي" or text == "نجبي" or text == "انجبو" or text == "نجبو" then
-if SudoId(msg) then
+if Sudo(msg) then
 rd = 'مطوريي اغلط شكد متريد نورتنه ، ♥️💪🏿'
 elseif SudoBot(msg) then
 rd = 'احترم نفسكك لا عبالكك رافعيك مطور ، 🖕🏿♥️'
